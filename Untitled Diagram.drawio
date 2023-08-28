@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T11:40:07.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="PB2pgV2Cdmh1fyI9kK4V" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T12:24:18.229Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="eBCx4Q1r3EVxYGQT3pI8" version="21.6.9" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="698" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1397" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yDjKqw7yzb0ghYkaqRdv-2" value="会員ID；MEMBER＿ID" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="250" width="200" height="250" as="geometry" />
+          <mxGeometry x="300" y="730" width="200" height="250" as="geometry" />
         </mxCell>
         <mxCell id="yDjKqw7yzb0ghYkaqRdv-6" value="パスワード：PASSWORD" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="yDjKqw7yzb0ghYkaqRdv-2">
           <mxGeometry y="30" width="180" height="20" as="geometry" />
@@ -38,7 +38,10 @@
           <mxGeometry y="210" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yDjKqw7yzb0ghYkaqRdv-3" value="会員: MEMBER" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="80" y="90" width="200" height="40" as="geometry" />
+          <mxGeometry x="300" y="680" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yDjKqw7yzb0ghYkaqRdv-76" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
