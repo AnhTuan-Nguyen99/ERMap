@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T11:08:36.933Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="kjpUFlUfPEM2q-u0Xc4m" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T11:17:35.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="A3vVkBLqmkqZFJ4xb6Zl" version="21.7.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2297" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
           <mxGeometry x="750" y="360" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UGFwMmbldTLrsSRiIsaC-1" value="ORDER_ID" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="150" width="200" height="250" as="geometry" />
+          <mxGeometry x="10" y="100" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="UGFwMmbldTLrsSRiIsaC-2" value="MEMBER_ID" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
           <mxGeometry y="30" width="180" height="20" as="geometry" />
@@ -121,26 +121,14 @@
         <mxCell id="UGFwMmbldTLrsSRiIsaC-4" value="TICKET_ID" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
           <mxGeometry x="-20" y="70" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UGFwMmbldTLrsSRiIsaC-5" value="　 郵便番号：POST＿CODE" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
+        <mxCell id="UGFwMmbldTLrsSRiIsaC-5" value="ORDER_DATETIME" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
           <mxGeometry x="-10" y="90" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UGFwMmbldTLrsSRiIsaC-6" value="　住所：ADDRESS" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
-          <mxGeometry x="-30" y="110" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UGFwMmbldTLrsSRiIsaC-7" value="　　　生年月日：BIRTHDAY" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
-          <mxGeometry x="-30" y="130" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UGFwMmbldTLrsSRiIsaC-8" value="　　電話番号：TEL＿NO" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
-          <mxGeometry x="-30" y="150" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UGFwMmbldTLrsSRiIsaC-9" value="メールアドレス：MAIL" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
-          <mxGeometry x="-10" y="170" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="UGFwMmbldTLrsSRiIsaC-11" value="　会員区分：MEMBER＿TYPE" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
-          <mxGeometry y="210" width="180" height="20" as="geometry" />
+        <mxCell id="UGFwMmbldTLrsSRiIsaC-6" value="PAYMENT_TYPE" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="UGFwMmbldTLrsSRiIsaC-1">
+          <mxGeometry x="-10" y="115" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UGFwMmbldTLrsSRiIsaC-12" value="ORDER" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="100" width="200" height="40" as="geometry" />
+          <mxGeometry x="10" y="50" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
