@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T14:34:23.633Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="PCZVsdoTnAXtWueRG53g" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T14:40:58.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="svZaEu3-ivJJEC_QcnjV" version="21.7.2" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="670" dy="1383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="931" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,8 +174,8 @@
         <mxCell id="k_bStmXS0Wy6511A6Ppj-31" value="CARD_COMPANY_NAME" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="k_bStmXS0Wy6511A6Ppj-30">
           <mxGeometry y="30" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="k_bStmXS0Wy6511A6Ppj-32" value="PREFECTURE" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="k_bStmXS0Wy6511A6Ppj-30">
-          <mxGeometry x="-50" y="50" width="215" height="20" as="geometry" />
+        <mxCell id="k_bStmXS0Wy6511A6Ppj-43" value="PREFECTURE" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="k_bStmXS0Wy6511A6Ppj-30">
+          <mxGeometry x="-45" y="50" width="215" height="20" as="geometry" />
         </mxCell>
         <mxCell id="k_bStmXS0Wy6511A6Ppj-36" value="CARD_COMPANY" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="250" y="860" width="200" height="40" as="geometry" />
@@ -186,6 +186,27 @@
             <mxPoint x="520" y="740" as="targetPoint" />
             <Array as="points">
               <mxPoint x="520" y="664" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k_bStmXS0Wy6511A6Ppj-41" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERzeroToOne;startFill=0;" edge="1" parent="1" source="k_bStmXS0Wy6511A6Ppj-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="700" as="sourcePoint" />
+            <mxPoint x="270" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="215" y="640" />
+              <mxPoint x="210" y="540" />
+              <mxPoint x="210" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k_bStmXS0Wy6511A6Ppj-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;exitX=-0.015;exitY=0.137;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="k_bStmXS0Wy6511A6Ppj-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="910" as="sourcePoint" />
+            <mxPoint x="255" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="911" />
+              <mxPoint x="100" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
